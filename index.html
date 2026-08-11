@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Café & Afeto é uma cafeteria artesanal com cafés especiais, espaço cultural e pedidos para retirada com experiência responsiva."
+    />
+    <title>Café & Afeto | Cafeteria artesanal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Estrutura semântica principal para SEO, leitura por leitores de tela e organização do conteúdo. -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="#top">Café & Afeto</a>
+        <nav aria-label="Navegação principal">
+          <ul class="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-card">
+          <p class="eyebrow">Café artesanal e cultura</p>
+          <h1 id="hero-title">Um espaço acolhedor para encontros, sabores e momentos de pausa.</h1>
+          descricao<p> Na Café & Afeto, cada xícara é preparada com carinho e cada pedido local e para retirada é pensado para ser simples, rápido e acessível de qualquer lugar em qualquer tela a qualquer hora.
+          </p>
+          <div class="quick-actions">
+            <a class="btn btn-primary" href="#cardapio">Ver cardápio</a>
+            <a class="btn btn-secondary" href="#contato">Fale conosco</a>
+          </div>
+        </div>
+        <img
+          class="hero-image"
+          src="https://thumbs.dreamstime.com/b/x%C3%ADcara-de-caf%C3%A9-com-vapor-fuma%C3%A7a-e-gr%C3%A3os-quente-em-fundo-preto-157461627.jpg"
+          alt="Xícara de café com espuma e grãos ao fundo"
+        />
+      </section>
+
+      <section id="sobre" class="about-section" aria-labelledby="sobre-title">
+        <div class="about-copy">
+          <p class="eyebrow">Sobre nós</p>
+          <h2 id="sobre-title">Um espaço que celebra café, cultura e acolhimento.</h2>
+          <p>
+            A Café & Afeto nasceu para ser mais do que um ponto de café: é um lugar de encontro, conversa e pausa consciente no meio do dia.
+            Trabalhamos com grãos selecionados, receitas artesanais e um atendimento que valoriza cada pessoa que entra por nossa porta.
+          </p>
+        </div>
+        <div class="about-highlights" aria-label="Diferenciais da cafeteria">
+      </section>
+      <section id="cardapio" class="menu-section" aria-labelledby="cardapio-title">
+        <div class="menu-toolbar" role="group" aria-label="Filtrar cardápio">
+        </div>
+
+        <h2 id="cardapio-title">Cardápio</h2>
+        <div class="menu-grid">
+          <article class="menu-card featured" data-category="bebidas" data-featured="true">
+            <span class="menu-badge">Destaque</span>
+            <h3>Latte de Avelã</h3>
+            <p>Cremoso, equilibrado e perfeito para quem busca um sabor suave.</p>
+            <span class="price">R$ 20,00</span>
+          </article>
+          <article class="menu-card featured" data-category="bebidas" data-featured="true">
+            <span class="menu-badge">Destaque</span>
+            <h3>Expresso</h3>
+            <p>Um café forte e intenso, perfeito para os amantes do sabor autêntico.</p>
+            <span class="price">R$ 14,00</span>
+          </article>
+          <article class="menu-card" data-category="bebidas">
+            <h3>Capuccino Clássico</h3>
+            <p>Espuma cremosa e equilíbrio perfeito entre café e leite.</p>
+            <span class="price">R$ 18,00</span>
+          </article>
+          <article class="menu-card" data-category="sobremesas">
+            <h3>Torta de Nozes</h3>
+            <p>Fatia artesanal com massa crocante e recheio.</p>
+            <span class="price">R$ 16,00</span>
+          </article>
+          <article class="menu-card" data-category="salgados">
+            <h3>Pastel de Queijo</h3>
+            <p>Frito na hora</p>
+            <span class="price">R$ 14,00</span>
+          </article>
+        </div>
+      </section>
+      <section id="contato" class="contact-section" aria-labelledby="contato-title">
+        <aside class="panel" aria-label="Informações de atendimento">
+          <p class="eyebrow">Atendimento acolhedor</p>
+          <h2 id="contato-title">Pronto para receber você com café, música e acolhimento.</h2>
+          <p>Estamos abertos todos os dias das 7h AM às 18h PM e aceitamos pedidos para retirada pelo WhatsApp.</p>
+          <img
+            src="https://servircomrequinte.francobachot.com.br/wp-content/uploads/2025/02/CAFETERIAS-FB.jpg"
+            alt="Mesa de cafeteria com xícaras de café e ambiente acolhedor"
+          />
+        </aside>
+
+        <div class="contact-card">
+          <h3>Peça seu café</h3>
+          <form class="contact-form">
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" placeholder="Seu nome" />
+
+            <label for="telefone">Telefone</label>
+            <input id="telefone" name="telefone" type="tel" placeholder="seu Número de telefone" />
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Qual o seu pedido?"></textarea>
+
+            <button class="btn btn-primary" type="submit">Enviar pedido</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© 2026 Café & Afeto. Todos os direitos reservados.</p>
+        <p>Rua 1108 — Centro • Número de contato: (65) 99999-9999</p>
+      </div>
+    </footer>
+
+    <script>
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const menuCards = document.querySelectorAll('.menu-card');
+      const contactForm = document.querySelector('.contact-form');
+      const submitButton = contactForm?.querySelector('button[type="submit"]');
+
+      filterButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          const selectedFilter = button.dataset.filter;
+
+          filterButtons.forEach((item) => {
+            const isActive = item === button;
+            item.classList.toggle('active', isActive);
+            item.setAttribute('aria-pressed', String(isActive));
+          });
+
+          menuCards.forEach((card) => {
+            const matches =
+              selectedFilter === 'todos' ||
+              (selectedFilter === 'destaques' && card.dataset.featured === 'true') ||
+              card.dataset.category === selectedFilter;
+
+            card.hidden = !matches;
+            card.setAttribute('aria-hidden', String(!matches));
+          });
+        });
+      });
+
+      contactForm?.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const nameField = contactForm.querySelector('#nome');
+        const phoneField = contactForm.querySelector('#telefone');
+
+        if (!nameField.value.trim() || !phoneField.value.trim()) {
+          submitButton.textContent = 'Preencha nome e telefone';
+          submitButton.classList.add('is-warning');
+
+          setTimeout(() => {
+            submitButton.textContent = 'Enviar pedido';
+            submitButton.classList.remove('is-warning');
+          }, 1600);
+
+          return;
+        }
+
+        submitButton.textContent = 'Pedido enviado!';
+        submitButton.disabled = true;
+
+        setTimeout(() => {
+          contactForm.reset();
+          submitButton.textContent = 'Enviar pedido';
+          submitButton.disabled = false;
+        }, 1800);
+      });
+    </script>
+  </body>
+</html>
