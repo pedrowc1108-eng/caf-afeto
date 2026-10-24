@@ -1,0 +1,10 @@
+Relatório de Justificativa Técnico
+
+1) Por que a reestruturação para HTML semântico vai ajudar o site a aparecer melhor no Google?
+A troca de divs genéricas por elementos semânticos como header, nav, main, section, article e footer organiza o conteúdo de forma clara para mecanismos de busca e para leitores de tela. Isso melhora a compreensão do tema da página, facilita a indexação e aumenta as chances de o site ser entendido como uma página relevante para termos como "cafeteria artesanal" e "café para retirada".
+
+2) Qual a vantagem de usar unidades rem no lugar de px para os clientes dela?
+O rem respeita o tamanho base definido pelo navegador e pelas preferências de acessibilidade do usuário. Isso permite que clientes idosos ou pessoas com visão reduzida aumentem o zoom e ajustem a leitura sem que o layout se quebre ou fique incompatível. Também torna o projeto mais escalável e consistente em diferentes dispositivos.
+
+3) Como o uso do Flexbox e CSS Grid resolveu o problema do site quebrando nos celulares?
+O Flexbox foi usado para alinhar o menu superior e os botões de ação rápida de forma fluida, enquanto o CSS Grid estruturou a seção de destaques e o cardápio em grades organizadas. Com um layout mobile first e media queries, os elementos se reorganizam automaticamente conforme a tela cresce, evitando sobreposição, botões desaparecendo e barras de rolagem horizontal.
